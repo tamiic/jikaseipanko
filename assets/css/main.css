@@ -409,6 +409,15 @@ a.boxed-btn {
   padding: 10px 20px;
 }
 
+a.boxed-btn-ft {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #F28123;
+  padding: 10px 15px;
+  margin: 8px 0;
+}
+
 a.bordered-btn {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
@@ -431,7 +440,7 @@ a.read-more-btn:hover {
   color: #F28123;
 }
 
-a.boxed-btn, a.bordered-btn, a.cart-btn {
+a.boxed-btn, a.boxed-btn-ft, a.bordered-btn, a.cart-btn {
   border-radius: 50px;
 }
 
@@ -876,7 +885,7 @@ a.mobile-show {
 .footer-area {
   background-color: #051922;
   color: #fff;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 h2.widget-title {
@@ -942,6 +951,10 @@ h2.widget-title:after {
 
 .footer-box.subscribe form button:focus {
   outline: none;
+}
+
+.btn-arr {
+  padding: 15px;
 }
 
 .copyright {
@@ -1027,6 +1040,17 @@ a.boxed-btn {
 a.boxed-btn:hover {
   background-color: #051922;
   color: #F28123;
+}
+
+a.boxed-btn-ft {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.boxed-btn-ft:hover {
+  background-color: #F28123;
+  color:#051922;
 }
 
 a.bordered-btn {
